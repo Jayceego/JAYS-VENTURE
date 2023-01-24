@@ -420,6 +420,7 @@ h4{
 /* **************** end hero************** */
 
 .parallax{
+  display: inline-block;
   background-image: url("../IMG/sunset-crop.jpg") !important;
   height: 120% !important;
   background-attachment: fixed !important;
@@ -839,9 +840,9 @@ p{
     padding-top: 20px;
   }
 
-  .parallax{
+  /* .parallax{
     background: url(../IMG/sunset.jpeg) 100;
-  }
+  } */
   .explore::after{
     position: absolute;
     content: 'EXPLORE';
