@@ -16,7 +16,11 @@ body{
 .reveal{
   transform: translateY(150px);
   opacity: 0;
-  transition: all 2s ease;
+  transition: all 1s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
 }
 .reveal.active{
   transform: translateY(0px) ;
@@ -288,6 +292,7 @@ nav li a:hover
 }
 .im{
   font-size: clamp(12px, 5vw, 40px);
+  font-weight: 500;
 }
 
 .name p{
@@ -297,7 +302,7 @@ nav li a:hover
 .jc-name{
   font-size: clamp(33px, 4vw, 70px);
   font-family: poppins;
-  font-weight: lighter;
+  font-weight: 100;
   color: #f3f3f3;
 }
 /* schedule */

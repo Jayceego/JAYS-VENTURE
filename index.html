@@ -52,7 +52,7 @@
 
 
 <!------------- Navbar ---------------------->
-<nav id="navbar" class="navbar navbar-expand-lg navbar-dark pl-lg-5 pr-lg-5 sticky-top scrolled"> 
+<nav id="navbar" class="navbar navbar-expand-lg navbar-dark pl-lg-5 pr-lg-5 sticky-top"> 
   <a class="navbar-brand pl-3 pt-1" href="#"> <img src="IMG/logo white.png" alt=""></a>
   <button class="navbar-toggler pr-3" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -77,9 +77,6 @@
       </li>
       <li class="nav-item pl-lg-1">
         <a class="nav-link" href="#gallery">Gallery</a>
-      </li>
-      <li class="nav-item pl-lg-1">
-        <a class="nav-link" href="https://pupedu-my.sharepoint.com/:v:/g/personal/johnchristophersgo_iskolarngbayan_pup_edu_ph/EbiN91QjzJVHpaZC6HNEWoEBkamfvwBuaE9FjAxKoq248A?e=OtsxXp">Presentation</a>
       </li>
     </ul>
   </div>
@@ -537,7 +534,8 @@
   $(function () {
     $(document).scroll(function () {
       var $nav = $(".navbar");
-      $nav.toggleClass('scrolled', $(this).scrollTop() >= $nav.height());
+      $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+      console.log(this);
     });
   });
 </script>
