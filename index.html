@@ -283,8 +283,8 @@
 </div>
 <!-------------- end hero ----------------- -->
 <!--------------- QUotes --------------------->
-<div class="parallax reveal">
-  <div class="container-fluid img1">
+<div class="parallax">
+  <div class="container-fluid img1 scrollspy">
     <div class="row">
 
       <!-- quote1 -->
@@ -537,7 +537,7 @@
   $(function () {
     $(document).scroll(function () {
       var $nav = $(".navbar");
-      $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+      $nav.toggleClass('scrolled', $(this).scrollTop() >= $nav.height());
     });
   });
 </script>
