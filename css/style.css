@@ -171,7 +171,7 @@ nav li a:hover
   width: calc(100% - 30px) !important;
   height: auto;
   transform: rotate(270deg);
-  top: 130px;
+  top: 155px;
   left: -85px;
   font-size: calc(10px + 2.5vw);
   font-weight: bold;
@@ -185,7 +185,7 @@ nav li a:hover
   width: calc(100% - 30px) !important;
   height: auto;
   transform: rotate(270deg);
-  top: 85px;
+  top: 115px;
   left: -85px;
   font-size: calc(10px + 2.5vw);
   font-weight: bold;
@@ -199,7 +199,7 @@ nav li a:hover
   width: calc(100% - 30px) !important;
   height: auto;
   transform: rotate(270deg);
-  top: 135px;
+  top: 165px;
   left: -85px;
   font-size: calc(10px + 2.5vw);
   font-weight: bold;
@@ -213,7 +213,7 @@ nav li a:hover
   width: calc(100% - 30px) !important;
   height: auto;
   transform: rotate(270deg);
-  top: 65px;
+  top: 75px;
   left: -85px;
   font-size: calc(10px + 2.5vw);
   font-weight: bold;
