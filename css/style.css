@@ -449,7 +449,10 @@ p{
   
   font-size: calc(12px + 1.5vw);
 }
-
+.name{
+  font-weight: bold;
+  color: #d69b2e;
+}
 
 
 /******************* end img *************** */
